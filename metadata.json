@@ -4,30 +4,17 @@
   "author": "Elliot Huffman",
   "summary": "Provides the framework required to run ELADS",
   "license": "proprietary",
-  "source": "https://git.elliot-labs.com/ELSAA/ELADS-Module",
+  "source": "https://git.elliot-labs.com/ELSAA/ELADS",
   "project_page": "https://elliot-labs.com/contact-us/",
   "dependencies": [
-
+    {"name": "puppetlabs/apache", "version_requirement":"2.1.x" },
+    {"name": "puppetlabs/tftp", "version_requirement": "0.2.x"}
   ],
   "operatingsystem_support": [
-    {
-      "operatingsystem": "Debian",
-      "operatingsystemrelease": [
-        "8"
-      ]
-    },
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
         "16.04"
-      ]
-    },
-    {
-      "operatingsystem": "windows",
-      "operatingsystemrelease": [
-        "2008 R2",
-        "2012 R2",
-        "10"
       ]
     }
   ],

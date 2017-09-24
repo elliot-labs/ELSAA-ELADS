@@ -3,4 +3,5 @@
 ---
 fixtures:
   forge_modules:
-#     stdlib: "puppetlabs/stdlib"
+      apache: "puppetlabs/apache"
+      tftp: "puppetlabs-tftp"
