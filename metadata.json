@@ -1,0 +1,43 @@
+{
+  "name": "elliotlabs-elads",
+  "version": "0.0.1",
+  "author": "Elliot Huffman",
+  "summary": "Provides the framework required to run ELADS",
+  "license": "proprietary",
+  "source": "https://git.elliot-labs.com/ELSAA/ELADS-Module",
+  "project_page": "https://elliot-labs.com/contact-us/",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    },
+    {
+      "operatingsystem": "windows",
+      "operatingsystemrelease": [
+        "2008 R2",
+        "2012 R2",
+        "10"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.1.0",
+  "template-url": "file://C:/PROGRA~1/PUPPET~1/DevelopmentKit/share/cache/pdk-module-template.git",
+  "template-ref": "heads/master-0-g54e88a4"
+}
