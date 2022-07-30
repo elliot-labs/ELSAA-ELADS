@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "author": "Elliot Huffman",
   "summary": "Provides the framework required to run ELADS",
-  "license": "proprietary",
+  "license": "MIT",
   "source": "https://git.elliot-labs.com/ELSAA/ELADS",
   "project_page": "https://elliot-labs.com/contact-us/",
   "dependencies": [
